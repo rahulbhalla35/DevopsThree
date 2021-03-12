@@ -182,6 +182,18 @@
 			<version>1.1</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Rahul3149680-01-releases</name>
+        <url>http://localhost:8081/artifactory/DevopsAssignmentArtifact</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Rahul3149680-01-snapshots</name>
+        <url>http://localhost:8081/artifactory/DevopsAssignmentArtifact</url>
+    </snapshotRepository>
+</distributionManagement>
 	<build>
 		<testResources>
 			<testResource>
