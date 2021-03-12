@@ -50,7 +50,7 @@ pipeline{
         
         stage('Docker - Deployment'){
             steps{
-                sh "docker run --name devopsassignmentcontainer -d -p 9050:9090 devopsassignmentimage:${BUILD_NUMBER}"
+                sh "docker run --name devopsassignmentcontainer -d -p 9051:9090 devopsassignmentimage:${BUILD_NUMBER}"
             }
         }
     }
